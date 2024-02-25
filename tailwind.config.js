@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{html,js}"],
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       serif: ["Playfair Display", ...defaultTheme.fontFamily.sans],
@@ -8,5 +11,4 @@ export default {
     },
   },
   plugins: [],
-}
-
+};
