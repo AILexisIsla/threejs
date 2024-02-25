@@ -5,9 +5,8 @@ import { useState } from "react";
 const Section = (props) => {
   return (
     <section
-      className={`h-screen flex flex-col justify-center p-10 ${
-        props.right ? "items-end" : "items-start"
-      }`}
+      className={`h-screen flex flex-col justify-center p-10 ${props.right ? "items-end" : "items-start"
+        }`}
       style={{
         opacity: props.opacity,
       }}
@@ -42,18 +41,19 @@ export const Overlay = () => {
           <h1 className="font-semibold font-serif text-2xl">
             Hola, soy Alexis Isla
           </h1>
-          <p className="text-gray-500">BIENVENIDO A MI PORTFOLIO</p>
-          <p className="mt-3">Tengo:</p>
+          <p className="text-gray-500">Bienvenido a mi portfolio</p>
+          <p className="mt-3">FullStack developer</p>
           <ul className="leading-9">
-            <li>🧑‍💻 +1 año de expereincia</li>
-            <li>🧑‍🏫 +15 certificados</li>
-            <li>📦 Fullstack</li>
+            <li>🧑‍💻 +1 Año de experiencia</li>
+            <li>🧑‍🏫 +15 Certificados</li>
+            <li>🌎 Inglés C1</li>
+            <li>🗂 Proyectos</li>
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
         <Section right opacity={opacitySecondSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            Stack tecnologico 🔥
+            Stack tecnológico 🔥
           </h1>
           <p className="text-gray-500">PS: Hice test QA</p>
           <p className="mt-3">
@@ -78,13 +78,13 @@ export const Overlay = () => {
         </Section>
         <Section opacity={opacityLastSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            🤙 Contactame?
+            🤙 Contáctame
           </h1>
           <p className="text-gray-500">
-            Creemos cosas grandiosas juntos
+            Creemos cosas grandiosas juntos!
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="tel:(+42) 4242-4242-424242">XXXXX</a>
+          📜📥 <a href="tel:(+42) 4242-4242-424242">Descargar CV</a>
           </p>
         </Section>
       </div>
