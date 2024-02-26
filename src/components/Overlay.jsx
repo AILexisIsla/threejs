@@ -62,7 +62,7 @@ export const Overlay = () => {
           <ul className="leading-9">
             <li>ReactJS</li>
             <li>React Native</li>
-            <li>VueJS</li>
+            <li>Angular</li>
             <li>Tailwind</li>
           </ul>
           <p className="mt-3">
@@ -70,8 +70,8 @@ export const Overlay = () => {
           </p>
           <ul className="leading-9">
             <li>NodeJS</li>
-            <li>tRPC</li>
-            <li>NestJS</li>
+            <li>MongoDB</li>
+            <li>NextJS</li>
             <li>PostgreSQL</li>
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
