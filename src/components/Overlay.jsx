@@ -47,44 +47,59 @@ export const Overlay = () => {
             <li>🧑‍💻 +1 Año de experiencia</li>
             <li>🧑‍🏫 +15 Certificados</li>
             <li>🌎 Inglés C1</li>
-            <li>🗂 Proyectos</li>
+            <li>🗂 +5 Proyectos</li>
           </ul>
-          <p className="animate-bounce  mt-6">↓</p>
+          <p className="animate-bounce  mt-6">↓🎮</p>
         </Section>
         <Section right opacity={opacitySecondSection}>
           <h1 className="font-semibold font-serif text-2xl">
             Stack tecnológico 🔥
           </h1>
           <p className="text-gray-500">PS: Hice test QA</p>
-          <p className="mt-3">
-            <b>Frontend 🚀</b>
-          </p>
-          <ul className="leading-9">
-            <li>ReactJS</li>
-            <li>React Native</li>
-            <li>Angular</li>
-            <li>Tailwind</li>
-          </ul>
-          <p className="mt-3">
-            <b>Backend 🔬</b>
-          </p>
-          <ul className="leading-9">
-            <li>NodeJS</li>
-            <li>MongoDB</li>
-            <li>NextJS</li>
-            <li>PostgreSQL</li>
-          </ul>
-          <p className="animate-bounce  mt-6">↓</p>
-        </Section>
-        <Section opacity={opacityLastSection}>
-          <h1 className="font-semibold font-serif text-2xl">
-            🤙 Contáctame
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <p className="mt-3">
+                <b>Frontend 🚀</b>
+              </p>
+              <ul className="leading-9">
+                <li>ReactJS</li>
+                <li>React Native</li>
+                <li>Angular</li>
+                <li>Tailwind</li>
+              </ul>
+            </div>
+            <div>
+              <p className="mt-3">
+                <b>Backend 🔬</b>
+              </p>
+              <ul className="leading-9">
+                <li>NodeJS</li>
+                <li>MongoDB</li>
+                <li>NextJS</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+          <h1 className="font-semibold font-serif text-2xl mt-4">
+            Contáctame 🤙
           </h1>
           <p className="text-gray-500">
             Creemos cosas grandiosas juntos!
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-          📜📥 <a href="tel:(+42) 4242-4242-424242">Descargar CV</a>
+            📜📥 <a href="tel:(+42) 4242-4242-424242">Descargar CV</a>
+          </p>
+          <p className="animate-bounce  mt-6">↓</p>
+        </Section>
+        <Section opacity={opacityLastSection}>
+          <h1 className="font-semibold font-serif text-2xl">
+            💻📈 Proyectos
+          </h1>
+          <p className="text-gray-500">
+            Creemos cosas grandiosas juntos!
+          </p>
+          <p className="mt-6 p-3 bg-slate-200 rounded-lg">
+            📜📥 <a href="tel:(+42) 4242-4242-424242">Descargar CV</a>
           </p>
         </Section>
       </div>
