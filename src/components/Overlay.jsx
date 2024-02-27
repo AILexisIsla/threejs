@@ -1,6 +1,7 @@
 import { Scroll, useScroll } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useState } from "react";
+import resume from "../assets/resume.pdf"
 
 const Section = (props) => {
   return (
@@ -87,7 +88,7 @@ export const Overlay = () => {
             Creemos cosas grandiosas juntos!
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📜📥 <a href="tel:(+42) 4242-4242-424242">Descargar CV</a>
+            📜📥 <a href="" download={resume}>Descargar CV</a>
           </p>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
