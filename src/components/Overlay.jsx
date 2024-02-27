@@ -88,7 +88,7 @@ export const Overlay = () => {
             Creemos cosas grandiosas juntos!
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📜📥 <a href="" download={resume}>Descargar CV</a>
+            📜📥 <a href={resume} download="Cv:AlexisIsla">Descargar CV</a>
           </p>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
