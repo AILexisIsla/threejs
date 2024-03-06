@@ -2,38 +2,11 @@ import { Scroll, useScroll } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useState } from "react";
 import resume from "../assets/resume.pdf"
-import Book1 from "../assets/books/book1.jpg";
-import Book2 from "../assets/books/book2.jpg";
-import Book3 from "../assets/books/book3.jpg";
+import Book1 from "../assets/books/book1.png";
+import Book2 from "../assets/books/book2.png";
+import Book3 from "../assets/books/book3.png";
 import Book4 from "../assets/books/book4.jpg";
 import Book5 from "../assets/books/book5.jpg";
-
-
-
-const booksData = [
-  {
-    id: 1,
-    img: Book1,
-    title: "Sombras Sutiles De Bambú",
-    rating: 5.0,
-    author: "Anna Llauradó",
-  },
-  {
-    id: 2,
-    img: Book4,
-    title: "Las tinieblas y el alba",
-    rating: 4.6,
-    author: "Ken Follett",
-  },
-  {
-    id: 3,
-    img: Book3,
-    title: "Heartstopper Vol.5",
-    rating: 4.7,
-    author: "Alice Oseman",
-  },
-  
-];
 
 const Section = (props) => {
   return (
@@ -96,9 +69,11 @@ export const Overlay = () => {
               </p>
               <ul className="leading-9">
                 <li>ReactJS</li>
-                <li>React Native</li>
-                <li>Angular</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
                 <li>Tailwind</li>
+                <li>CSS</li>
+                <li>HTML</li>
               </ul>
             </div>
             <div>
@@ -108,7 +83,7 @@ export const Overlay = () => {
               <ul className="leading-9">
                 <li>NodeJS</li>
                 <li>MongoDB</li>
-                <li>NextJS</li>
+                <li>Java</li>
                 <li>PostgreSQL</li>
               </ul>
             </div>
@@ -132,12 +107,24 @@ export const Overlay = () => {
             Creemos cosas grandiosas juntos!
           </p>
           <div className="grid grid-cols-2 gap-4 mt-3">
-    <img src={Book1} alt="Descripción de la imagen 1" className="object-cover rounded-md w-full h-32 border-4 border-black" />
-    <img src={Book2} alt="Descripción de la imagen 2" className="object-cover rounded-md w-full h-32 border-4 border-black"/>
-    <img src={Book3} alt="Descripción de la imagen 3" className="object-cover rounded-md w-full h-32 border-4 border-black"/>
-    <img src={Book4} alt="Descripción de la imagen 4" className="object-cover rounded-md w-full h-32 border-4 border-black"/>
-    <img src={Book1} alt="Descripción de la imagen 1" className="object-cover rounded-md w-full h-32 border-4 border-black" />
-    <img src={Book2} alt="Descripción de la imagen 2" className="object-cover rounded-md w-full h-32 border-4 border-black"/>
+    <a href="https://rollingym.netlify.app/"><img src={Book1} alt="Descripción de la imagen 1" className="object-fill object-cover rounded-md w-full h-32 border-4 border-black" /></a>
+    <p><li>E-COMMERCE</li>
+    <li>React</li>
+    <li>Bootstrap</li>
+    <li>MongoDB</li>
+    <li>Node.js</li>
+    </p>
+    <a href="https://alexisisladev.itch.io/bahia-blanca-ovni-invader?secret=XKalTejpcElcgnwrIBqpy4VLePA"><img src={Book2} alt="Descripción de la imagen 2" className="object-cover rounded-md w-full h-32 border-4 border-black"/></a>
+    <p><li>VIDEO GAME</li>
+    <li>C#</li>
+    <li>Unity</li></p>
+    <a href="https://libreriadelaferoca.netlify.app/"><img src={Book3} alt="Descripción de la imagen 3" className="object-cover rounded-md w-full h-32 border-4 border-black"/></a>
+    <p><li>E-COMMERCE</li>
+    <li>React</li>
+    <li>Javascript</li>
+    <li>Taildwind</li>
+    <li>MongoDB</li>
+    </p>
   </div>
         </Section>
       </div>
