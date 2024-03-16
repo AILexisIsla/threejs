@@ -50,7 +50,7 @@ export const Overlay = () => {
           <p className="text-gray-500">Bienvenido a mi portfolio</p>
           <p className="mt-3">FullStack developer</p>
           <ul className="leading-9">
-            <li>🧑‍💻 +1 Año de experiencia</li>
+            <li>🧑‍💻 +2 Año de experiencia</li>
             <li>🧑‍🏫 +15 Certificados</li>
             <li>🌎 Inglés C1</li>
             <li>🗂 +5 Proyectos</li>
